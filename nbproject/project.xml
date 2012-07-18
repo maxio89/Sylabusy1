@@ -7,15 +7,19 @@
             <minimum-ant-version>1.6.5</minimum-ant-version>
             <web-module-libraries>
                 <library dirs="200">
-                    <file>${libs.ODFdom.classpath}</file>
+                    <file>${file.reference.odfdom-java-0.8.8-incubating.jar}</file>
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">
-                    <file>${libs.ElementTraversal.classpath}</file>
+                    <file>${file.reference.batik-ext-1.7.jar}</file>
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
                 <library dirs="200">
-                    <file>${libs.ODFsimple.classpath}</file>
+                    <file>${file.reference.simple-odf-0.7-incubating.jar}</file>
+                    <path-in-war>WEB-INF/lib</path-in-war>
+                </library>
+                <library dirs="200">
+                    <file>${file.reference.xercesImpl.jar}</file>
                     <path-in-war>WEB-INF/lib</path-in-war>
                 </library>
             </web-module-libraries>
